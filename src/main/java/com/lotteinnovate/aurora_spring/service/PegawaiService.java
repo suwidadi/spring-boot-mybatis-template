@@ -20,4 +20,16 @@ public class PegawaiService {
     public List<Map<String, Object>> getAllPegawai(){
         return pegawaiMapper.getAllPegawai();
     }
+
+    public void createDataPegawai(Map<String, Object> data) {
+        pegawaiMapper.insertDataPegawai(data);
+    }
+
+    public void updateDataPegawai(Map<String, Object> data) {
+        pegawaiMapper.updateDataPegawai(data);
+    }
+
+    public void deleteDataPegawai(int id) {
+        pegawaiMapper.deleteDataPegawai(id);
+    }
 }

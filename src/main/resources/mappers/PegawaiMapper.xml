@@ -8,4 +8,18 @@
     <select id="getAllPegawai" resultType="map">
         SELECT * FROM pegawai
     </select>
+    <insert id="insertData">
+        INSERT INTO pegawai (column1, column2, ...)
+        VALUES (#{column1}, #{column2}, ...)
+    </insert>
+
+    <update id="updateData">
+        UPDATE pegawai
+        SET column1 = #{column1}, column2 = #{column2}, ...
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteData">
+        DELETE FROM pegawai WHERE id = #{id}
+    </delete>
 </mapper>
