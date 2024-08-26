@@ -1,6 +1,6 @@
 # My Spring Boot CRUD Application
 
-This is a simple Spring Boot application that demonstrates how to perform basic CRUD (Create, Read, Update, Delete) operations using Spring Boot, MyBatis, and XML-based SQL mappings. The application serves a basic HTML page and provides a RESTful API to interact with the database.
+This is a simple Spring Boot application that demonstrates how to perform basic CRUD (Create, Read, Update, Delete) operations using Spring Boot, MyBatis, and XML-based SQL mappings. The application serves a basic HTML page and provides a RESTful API to interact with the database. The Index file load the skeleton page, and request RESTful data.
 
 ## Features
 
