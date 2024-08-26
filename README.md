@@ -13,8 +13,8 @@ This is a simple Spring Boot application that demonstrates how to perform basic 
 
 ### Prerequisites
 
-- Java 8 or higher
-- Maven or Gradle
+- Java 22
+- Maven 3.9
 - MySQL (or any other relational database supported by MyBatis)
 
 ### Database Setup
@@ -116,10 +116,10 @@ This is a simple Spring Boot application that demonstrates how to perform basic 
 
 ## Project Structure
 
-- **src/main/java/com/example/demo/controller**: Contains the `MyController` class that handles HTTP requests.
-- **src/main/java/com/example/demo/service**: Contains the `MyService` class that contains the business logic.
-- **src/main/java/com/example/demo/mapper**: Contains the `MyMapper` interface for MyBatis.
-- **src/main/resources/mapper**: Contains the `MyMapper.xml` file with SQL queries.
+- **src/main/java/com/example/demo/controller**: Contains the `PegawaiController` class that handles HTTP requests.
+- **src/main/java/com/example/demo/service**: Contains the `PegawaiService` class that contains the business logic.
+- **src/main/java/com/example/demo/mapper**: Contains the `PegawaiMapper` interface for MyBatis.
+- **src/main/resources/mapper**: Contains the `PegawaiMapper.xml` file with SQL queries.
 - **src/main/resources/templates**: Contains the `index.html` file for the basic HTML view.
 - **src/main/resources/application.properties**: Configuration file for database and MyBatis settings.
 
